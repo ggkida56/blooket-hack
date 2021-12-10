@@ -38,11 +38,12 @@ def addCurrencies():
     request_url = "https://api.blooket.com/api/users/add-rewards"
     request_data = {
         "name": blooketName,
-        "addedTokens": 500,
-        "addedXp": 300
+        "addedTokens": 500000000,
+        "addedXp": 30000000000000000
     }
 
-    if ltd[0].day == ltd[1].day + 1:
+    if ltd[0].day == ltd[0].day + 0
+    :
         try:
             r = requests.put(request_url, request_data, headers={
                              "authorization": authToken})
